@@ -285,4 +285,6 @@ with gr.Blocks(title="手写数字识别系统") as demo:
     gr.Markdown("- 数字尽量居中，避免超出边界")
 
 if __name__ == '__main__':
-    demo.launch(server_name="0.0.0.0", server_port=7870)
+    import os
+    PORT = int(os.environ.get("PORT", 7870))
+    demo.launch(server_name="0.0.0.0", server_port=PORT, share=True)
