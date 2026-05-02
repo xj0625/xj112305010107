@@ -94,7 +94,7 @@
 | 是否使用 Early Stopping | 是 (patience=8) |
 | 是否使用学习率调度器 | 是 (OneCycleLR, pct_start=0.3) |
 | 其他调整 | 增强CNN(48→96→192→256)、SiLU激活函数、AdaptiveAvgPool2d、TTA测试时增强 |
-| **Kaggle Score** | **0.99514** |
+| **Kaggle Score** | **0.99625** |
 
 ### 1.5 Loss 曲线
 
