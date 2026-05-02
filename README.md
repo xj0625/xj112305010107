@@ -163,6 +163,10 @@ Linear(256→10)
 | 验证准确率 | 99.67% |
 | 训练准确率 | 99.88% |
 
+### Kaggle 提交结果截图
+
+![Kaggle提交结果](kaggle_score.png)
+
 ---
 
 ## 📝 提交清单
@@ -173,7 +177,7 @@ Linear(256→10)
 | 模型权重 | ✅ | `best_model.pth` |
 | Kaggle提交 | ✅ | `sample_submission.csv` |
 | 实验报告 | ✅ | `README.md`, `CNN手写数字识别实验模板.md` |
-| 结果截图 | ✅ | `loss_curve.png`, `acc_curve.png` |
+| 结果截图 | ✅ | `loss_curve.png`, `acc_curve.png`, `kaggle_score.png` |
 | 依赖清单 | ✅ | `requirements.txt` |
 
 ---
